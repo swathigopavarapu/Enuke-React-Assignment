@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 5%;
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  font-size: 1.2rem;
+  background-color:blue;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f0f0!important;
+}
+
+.fixTableHead {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  height: calc(100vh - 200px);
+  
+  
+}
+.fixTableHead thead th {
+  position: sticky;
+top: 0;
+}
