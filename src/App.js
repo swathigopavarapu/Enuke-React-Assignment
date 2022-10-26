@@ -22,10 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>
-        
-        
-      </h2>
+      <h2>Enuke React Assignment</h2>
 
      {loading ? <div>Loading, Please wait...</div> : 
       <div className="fixTableHead">
